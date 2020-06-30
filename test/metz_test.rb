@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'test_helper'
-require_relative '../metz'
+require_relative '../app/gear'
 
 class MetzTest < Minitest::Test
   parallelize_me!
