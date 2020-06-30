@@ -1,0 +1,8 @@
+.DS_Store
+.idea
+.yardoc
+doc
+coverage
+test/html_reports
+tmp
+.rbenv-gemsets

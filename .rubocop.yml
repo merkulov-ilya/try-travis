@@ -1,0 +1,23 @@
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'tmp/**/*'
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: 'comma'
+
+Style/AsciiComments:
+  Enabled: false
+#  Exclude:
+#    - '*.rb'
+
+# Offense count: 1
+Style/Documentation:
+  Exclude:
+    - 'spec/**/*'
+    - 'test/**/*'
+
+Bundler/OrderedGems:
+  Enabled: false
+#  Exclude:
+#    - 'Gemfile'
